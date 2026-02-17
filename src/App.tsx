@@ -6,6 +6,7 @@ import { PracticePage } from './pages/PracticePage'
 import { AssessmentsPage } from './pages/AssessmentsPage'
 import { ResourcesPage } from './pages/ResourcesPage'
 import { ProfilePage } from './pages/ProfilePage'
+import { ResultsPage } from './pages/ResultsPage'
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
           <Route path="/assessments" element={<AssessmentsPage />} />
           <Route path="/resources" element={<ResourcesPage />} />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/results" element={<ResultsPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
