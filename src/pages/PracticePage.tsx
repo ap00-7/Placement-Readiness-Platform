@@ -22,7 +22,7 @@ export function PracticePage() {
   function handleAnalyze(e: FormEvent) {
     e.preventDefault()
     if (!jdText.trim()) {
-      setError('Paste the job description before analyzing.')
+      setError('Please paste a job description to analyze.')
       return
     }
     setError(null)
